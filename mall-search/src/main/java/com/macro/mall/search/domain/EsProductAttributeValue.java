@@ -13,6 +13,10 @@ public class EsProductAttributeValue implements Serializable {
     private static final long serialVersionUID = 1L;
     private Long id;
     private Long productAttributeId;
+    private int test;
+    private int test2;
+    private int test3;
+
     //属性值
     @Field(type = FieldType.Keyword)
     private String value;
